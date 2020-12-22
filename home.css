@@ -1,5 +1,9 @@
+head, body {
+    --blue: #1a0fbc;
+}
+
 #logo {
-    margin-left: 1%;
+    margin-left: 4px;
     white-space: nowrap;
     float: left;
 }
@@ -7,5 +11,10 @@
 #title {
     white-space: nowrap;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 4px;
+    font-size: 85px;
+}
+
+nav {
+    background-color: var(--blue);
 }
