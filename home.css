@@ -1,5 +1,6 @@
 head, body {
     --blue: #1a0fbc;
+    text-align: center;
 }
 
 #logo {
@@ -21,4 +22,10 @@ nav {
 
 .hide {
     display: none;
+}
+
+.carousel {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
