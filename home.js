@@ -19,4 +19,10 @@ function loadTab(id) {
     const currentTab = document.getElementById(id);
     currentTab.classList.add('current');
     currentTab.classList.remove('hide');
+    if (id === "home") {
+        document.getElementById("title").innerHTML = "Band Land Brass Band";
+    }
+    else {
+        document.getElementById("title").innerHTML = id.replace(/^\w/, (c) => c.toUpperCase());
+    }
 }
