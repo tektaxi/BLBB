@@ -18,3 +18,11 @@ head, body {
 nav {
     background-color: var(--blue);
 }
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

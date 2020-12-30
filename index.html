@@ -18,33 +18,33 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="load(0)">Home<span class="sr-only">(current)</span></a>
+            <a id='home-btn' class="nav-link" href="#" onclick="loadTab('home')">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="load(1)">About<span class="sr-only">(current)</span></a>
+            <a id='about-btn' class="nav-link" href="#" onclick="loadTab('about')">About<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="load(2)">Performances<span class="sr-only">(current)</span></a>
+            <a id='performances-btn' class="nav-link" href="#" onclick="loadTab('performances')">Performances<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#" onclick="load(3)">Merchandise<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#" onclick="loadTab('merch')">Merchandise<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!--Home-->
-    <template id="home">
+    <div id="home" class="tab hide">
       <p>We are the Band Land Brass Band from Cambridge, Massachusetts!</p>
-    </template>
+    </div>
 
     <!--About-->
-    <template id="about">
+    <div id="about" class="tab hide">
       <p>About Us</p>
-    </template>
+    </div>
 
     <!--Performances-->
-    <template id="performances">
+    <div id="performances" class="tab hide">
       <p>Past Performances</p>
       <table>
         <tr>
@@ -60,12 +60,12 @@
           <td>10/24/20</td>
         </tr>
       </table>
-    </template>
+    </div>
 
     <!--Merch-->
-    <template id="merch">
+    <div id="merch" class="tab hide">
       <p>Buy our merch!</p>
-    </template>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
