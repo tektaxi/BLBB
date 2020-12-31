@@ -19,6 +19,7 @@ head, body {
 
 nav {
     background-color: var(--blue);
+    width: 100%;
 }
 
 .hide {
@@ -48,17 +49,7 @@ p {
     font-size: 1.1em;
 }
 
-#title {
-    font-size: 4em;
-}
-
-#nav-top {
-    width: 100%;
-    position: fixed;
-}
-
 #header-bottom {
-    padding-top: 56px;
     z-index: 10;
     background-color: var(--white);
 }
