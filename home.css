@@ -59,6 +59,11 @@ p {
     padding-bottom: 10px;
 }
 
+#about-description {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 #card {
     width: 18rem;
     margin-left: 10px;
