@@ -120,6 +120,8 @@ const members = [
     },
 ]
 
+const aboutBtn = document.getElementById("about-btn");
+aboutBtn.addEventListener("click", loadMembers);
 function loadMembers() {
     // Loop through members, starting with the second element (the first one doesn't need to be cloned)
     for (let i = 1; i < members.length; i++) {
@@ -134,4 +136,5 @@ function loadMembers() {
 
         document.getElementById("members").appendChild(clone);
     }
+    aboutBtn.removeEventListener("click", loadMembers);
 }
