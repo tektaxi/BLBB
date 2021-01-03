@@ -27,7 +27,7 @@
                 <a id="home-btn" class="nav-link" href="#home" onclick="loadTab('home')">Home<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#about" onclick="loadTab('about')">About<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#about" onclick="loadTab('about');loadMembers();">About<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="#performances" onclick="loadTab('performances')">Performances<span class="sr-only">(current)</span></a>
@@ -98,7 +98,17 @@
 
     <!--About-->
     <div id="about" class="tab hide">
-      <p>About Us</p>
+      <h2>Members</h2>
+      <div id="members">
+        <div id="card">
+          <img id="photo" src="images/instruments/tenor-sax.png">
+          <div class="card-body">
+            <h5 id="name">Emma Blanc</h5>
+            <p id="instrument">Tenor Saxophone</p>
+            <p id="catchphrase">Secret weapon</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--Performances-->

@@ -58,3 +58,13 @@ p {
     width: 50px;
     padding-bottom: 10px;
 }
+
+#card {
+    width: 18rem;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#photo {
+    width: 120px;
+}
