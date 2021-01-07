@@ -19,6 +19,9 @@ function loadTab(id) {
     const currentTab = document.getElementById(id);
     currentTab.classList.add('current');
     currentTab.classList.remove('hide');
+
+    // updates the page title
+    document.getElementById("title").innerHTML = "Band Land Brass Band | " + id.charAt(0).toUpperCase() + id.slice(1);
 }
 
 const members = [
