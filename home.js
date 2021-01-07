@@ -29,97 +29,97 @@ const members = [
         "name": "Emma Blanc",
         "instrument": "Tenor Saxophone",
         "catchphrase": "Secret weapon",
-        "photo": "images/instruments/tenor-sax.png"
+        "photo": "images/instruments/tenor-sax.jpeg"
     },
     {
         "name": "Seth Goldman",
         "instrument": "Alto Saxophone",
         "catchphrase": "Strong harmonies, stronger jawline",
-        "photo": "images/instruments/alto-sax.png"
+        "photo": "images/instruments/alto-sax.jpeg"
     },
     {
         "name": "Jade Buckwalter",
         "instrument": "Alto Saxophone",
         "catchphrase": "Actually a flautist",
-        "photo": "images/instruments/alto-sax.png"
+        "photo": "images/instruments/alto-sax.jpeg"
     },
     {
         "name": "Mike Benoit-Latour",
         "instrument": "Alto Saxophone",
         "catchphrase": "Gamer boiii",
-        "photo": "images/instruments/alto-sax.png"
+        "photo": "images/instruments/alto-sax.jpeg"
     },
     {
         "name": "Elizabeth Lucas-Foley",
         "instrument": "Trumpet",
         "catchphrase": "Board game wizard",
-        "photo": "images/instruments/trumpet.png"
+        "photo": "images/instruments/trumpet.jpeg"
     },
     {
         "name": "Raleigh Berman",
         "instrument": "Trumpet",
         "catchphrase": "Smash Bros champion",
-        "photo": "images/instruments/trumpet.png"
+        "photo": "images/instruments/trumpet.jpeg"
     },
     {
         "name": "Lewis Bryant III",
         "instrument": "Trombone",
         "catchphrase": "Sweatpants aficionado",
-        "photo": "images/instruments/trombone.png"
+        "photo": "images/instruments/trombone.jpeg"
     },
     {
         "name": "Ari Berman",
         "instrument": "Sousaphone",
         "catchphrase": "Sousa screamer",
-        "photo": "images/instruments/sousaphone.png"
+        "photo": "images/instruments/sousaphone.jpeg"
     },
     {
         "name": "Aleyana Pina",
         "instrument": "Baritone Saxophone",
         "catchphrase": "Copycat killer",
-        "photo": "images/instruments/bari-sax.png"
+        "photo": "images/instruments/bari-sax.jpeg"
     },
     {
         "name": "Ellen Jacobson",
         "instrument": "Percussion",
         "catchphrase": "Get the London look",
-        "photo": "images/instruments/drums.png"
+        "photo": "images/instruments/drums.jpeg"
     },
     {
         "name": "Sam Marshall",
         "instrument": "Percussion",
         "catchphrase": "BLBB intern",
-        "photo": "images/instruments/drums.png"
+        "photo": "images/instruments/drums.jpeg"
     },
     {
         "name": "Tavi Pollard",
         "instrument": "Percussion",
         "catchphrase": "Photographer extraordinaire",
-        "photo": "images/instruments/drums.png"
+        "photo": "images/instruments/drums.jpeg"
     },
     {
         "name": "Ezra Rudel",
         "instrument": "Trumpet",
         "catchphrase": "BLBB founder, sorta a famous jazz musician",
-        "photo": "images/instruments/trumpet.png"
+        "photo": "images/instruments/trumpet.jpeg"
     },
     {
         "name": "Fritz Duverglas",
         "instrument": "Trumpet",
         "catchphrase": "Pizzzaaaa",
-        "photo": "images/instruments/trumpet.png"
+        "photo": "images/instruments/trumpet.jpeg"
     },
     {
         "name": "Franny Oppenheimer",
         "instrument": "Trombone",
         "catchphrase": "Group chat overlord",
-        "photo": "images/instruments/trombone.png"
+        "photo": "images/instruments/trombone.jpeg"
     },
     {
         "name": "Theo Lennhoff",
         "instrument": "Percussion",
         "catchphrase": "ScrewDRIVER",
-        "photo": "images/instruments/drums.png"
+        "photo": "images/instruments/drums.jpeg"
     },
 ]
 
