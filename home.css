@@ -64,9 +64,19 @@ p {
     margin-right: 120px;
 }
 
-#card {
+#member-card {
     width: 18rem;
     height: 24rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#shirt-card {
+    width: 18rem;
+    height: 28rem;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;

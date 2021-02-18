@@ -129,7 +129,7 @@ function loadMembers() {
     // Loop through members, starting with the second element (the first one doesn't need to be cloned)
     for (let i = 1; i < members.length; i++) {
         // Clone the original card
-        const clone = document.getElementById("card").cloneNode(true);
+        const clone = document.getElementById("member-card").cloneNode(true);
 
         // Get the info from the array and copy it into the clone
         clone.querySelector("#name").innerHTML = members[i].name;
